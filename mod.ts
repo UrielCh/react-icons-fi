@@ -25,19 +25,27 @@
  * 
  * ## Direct import sample
  * 
- * `import { FiActivity } from "https://deno.land/x/react_icons_fi@1.0.1/mod.ts"`
+ * ```ts
+ * import { FiActivity } from "https://deno.land/x/react_icons_fi@1.0.1/mod.ts"
+ * ```
  * 
  * ## import_map import sample
  * 
- * `import { FiActivity } from "react-icons/fi"`
+ * ```ts
+ * import { FiActivity } from "react-icons/fi"
+ * ```
  * 
  * ## minimal import
  * 
- * `import { FiActivity } from "react-icons/fi/FiActivity.ts"`
+ * ```ts
+ * import { FiActivity } from "react-icons/fi/FiActivity.ts"
+ * ```
  * 
- * ## minimal import default
+ * ## minimal import using default export
  * 
- * `import FiActivity from "react-icons/fi/FiActivity.ts"`
+ * ```ts
+ * import FiActivity from "react-icons/fi/FiActivity.ts"
+ * ```
  * 
  * @module
  */
