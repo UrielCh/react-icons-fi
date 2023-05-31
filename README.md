@@ -15,31 +15,31 @@ For a transparent usage:
   "imports": {
     "preact":  "https://esm.sh/preact@10.15.1",
     "preact/": "https://esm.sh/preact@10.15.1/",
-    "react-icons/fi":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-fi@1.0.6/mod.ts",
-    "react-icons/fi/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-fi@1.0.6/ico/",
+    "react-icons/fi":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-fi@1.0.7/mod.ts",
+    "react-icons/fi/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-fi@1.0.7/ico/",
   }
 }
 ```
 
-## Direct import sample
+## Import an icon without import_map by and afer loading all icons from the lib fi
 
 ```ts
-import { FiActivity } from "https://deno.land/x/react_icons_fi@1.0.6/mod.ts"
+import { FiActivity } from "https://deno.land/x/react_icons_fi@1.0.7/mod.ts"
 ```
 
-## import_map import sample
+## import_map import an icon from all icons
 
 ```ts
 import { FiActivity } from "react-icons/fi"
 ```
 
-## minimal import
+## import a single icon, downloading just one icon
 
 ```ts
 import { FiActivity } from "react-icons/fi/FiActivity.ts"
 ```
 
-## minimal import using default export
+or using default export
 
 ```ts
 import FiActivity from "react-icons/fi/FiActivity.ts"
