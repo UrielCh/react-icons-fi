@@ -15,8 +15,8 @@ For a transparent usage:
   "imports": {
     "preact":  "https://esm.sh/preact@10.15.1",
     "preact/": "https://esm.sh/preact@10.15.1/",
-    "react-icons/fi":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-fi@1.0.5/mod.ts",
-    "react-icons/fi/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-fi@1.0.5/ico/",
+    "react-icons/fi":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-fi@1.0.6/mod.ts",
+    "react-icons/fi/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-fi@1.0.6/ico/",
   }
 }
 ```
@@ -24,7 +24,7 @@ For a transparent usage:
 ## Direct import sample
 
 ```ts
-import { FiActivity } from "https://deno.land/x/react_icons_fi@1.0.5/mod.ts"
+import { FiActivity } from "https://deno.land/x/react_icons_fi@1.0.6/mod.ts"
 ```
 
 ## import_map import sample
