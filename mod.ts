@@ -17,8 +17,8 @@
  *   "imports": {
  *     "preact":  "https://esm.sh/preact@10.15.1",
  *     "preact/": "https://esm.sh/preact@10.15.1/",
- *     "react-icons/fi":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-fi@1.0.3/mod.ts",
- *     "react-icons/fi/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-fi/ico/",
+ *     "react-icons/fi":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-fi@1.0.4/mod.ts",
+ *     "react-icons/fi/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-fi@1.0.4/ico/",
  *   }
  * }
  * ```
@@ -26,7 +26,7 @@
  * ## Direct import sample
  * 
  * ```ts
- * import { FiActivity } from "https://deno.land/x/react_icons_fi@1.0.3/mod.ts"
+ * import { FiActivity } from "https://deno.land/x/react_icons_fi@1.0.4/mod.ts"
  * ```
  * 
  * ## import_map import sample
