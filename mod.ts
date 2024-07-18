@@ -10,39 +10,56 @@
  * 
  * [See available icons here](https://react-icons.deno.dev/fi)
  * 
- * ## import_map.json
+ * ## install packahe
  * 
- * For a transparent usage:
- * 
- * ```json
- * {
- *   "imports": {
- *     "@preact-icons/common": "jsr:@preact-icons/common@^1.0.10",
- *     "preact": "npm:preact@10.22.1",
- *     "preact/jsx-runtime": "npm:preact@10.22.1/jsx-runtime",
- *     "preact/hooks": "npm:preact@10.22.1/hooks",
- *     "react-icons/fi": "jsr:@preact-icons/fi@^1.0.11/mod.ts",
- *     "react-icons/fi/": "jsr:@preact-icons/fi@^1.0.11/ico/",
- *   }
- * }
+ * ```bash
+ * deno add @preact-icons/fi
+ * dnpx jsr add @preact-icons/fi
+ * pnpm dlx jsr add @preact-icons/fi
+ * bunx jsr add @preact-icons/fi
  * ```
  * 
- * ## Import an icon without import_map by and afer loading all icons from the lib fi
+ * You may need to update your preact mapping to:
+ *  - "preact": "npm:preact@10.22.1",
+ *  - "preact/jsx-runtime": "npm:preact@10.22.1/jsx-runtime",
+ *  - "preact/hooks": "npm:preact@10.22.1/hooks",
  * 
- * ```ts
- * import { FiActivity } from "jsr:preact-icons/fi@1.0.11/mod.ts"
+ * 
+ * # Feather icons for preact
+ * 
+ * [![JSR](https://jsr.io/badges/@preact-icons/fi)](https://jsr.io/@preact-icons/fi)
+ * 
+ * **License** [MIT](https://github.com/feathericons/feather/blob/master/LICENSE)
+ * 
+ * **Project** [https://feathericons.com/](https://feathericons.com/)
+ * 
+ * [See available icons here](https://react-icons.deno.dev/fi)
+ * 
+ * ## install packahe
+ * 
+ * ```bash
+ * deno add @preact-icons/fi
+ * dnpx jsr add @preact-icons/fi
+ * pnpm dlx jsr add @preact-icons/fi
+ * bunx jsr add @preact-icons/fi
  * ```
  * 
- * ## import_map import an icon from all icons
+ * You may need to update your preact mapping to:
+ *  - "preact": "npm:preact@10.22.1",
+ *  - "preact/jsx-runtime": "npm:preact@10.22.1/jsx-runtime",
+ *  - "preact/hooks": "npm:preact@10.22.1/hooks",
+ * 
+ * 
+ * ## import an icon from all icons
  * 
  * ```ts
- * import { FiActivity } from "react-icons/fi"
+ * import { FiActivity } from "@preact-icons/fi"
  * ```
  * 
  * ## import a single icon, downloading just one icon
  * 
  * ```ts
- * import { FiActivity } from "react-icons/fi/FiActivity.ts"
+ * import { FiActivity } from "react-icons/fi/FiActivity"
  * ```
  * 
  * or using default export
