@@ -44,7 +44,7 @@
  * or using default export
  * 
  * ```ts
- * import FiActivity from "react-icons/fi/FiActivity.ts"
+ * import FiActivity from "react-icons/fi/FiActivity"
  * ```
  * @module
  * 
